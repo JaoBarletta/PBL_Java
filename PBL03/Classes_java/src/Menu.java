@@ -53,7 +53,7 @@ public class Menu {
             System.out.printf("Saldo atual: "+c.saldo+"\nDigite o valor que você deseja sacar: ");
             double valor = ler.nextDouble();
             c.sacar(valor);
-
+            // inserir true or false para a resposta
         }
     }
 }
