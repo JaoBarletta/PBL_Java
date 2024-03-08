@@ -1,0 +1,51 @@
+// Fazer o constructr jogar as contas novas no arraylist
+//debugar as partes do codigo que estão dando erro por causa do Scanner
+//exemplo de codigo para utilizar como base
+//import java.util.ArrayList;
+//
+
+
+
+
+
+
+
+//// Definição da classe Pessoa
+//class Pessoa {
+//    String nome;
+//    int idade;
+//
+//    // Construtor da classe Pessoa
+//    public Pessoa(String nome, int idade) {
+//        this.nome = nome;
+//        this.idade = idade;
+//    }
+//
+//    // Método para exibir informações sobre a pessoa
+//    public void exibirInformacoes() {
+//        System.out.println("Nome: " + nome);
+//        System.out.println("Idade: " + idade);
+//        System.out.println("---");
+//    }
+//}
+//
+//// Classe principal que contém o método main
+//public class ExemploArrayList {
+//    public static void main(String[] args) {
+//        // Criando um ArrayList de pessoas
+//        ArrayList<Pessoa> pessoas = new ArrayList<>();
+//
+//        // Adicionando objetos da classe Pessoa ao ArrayList
+//        pessoas.add(new Pessoa("Alice", 25));
+//        pessoas.add(new Pessoa("Bob", 30));
+//        pessoas.add(new Pessoa("Charlie", 22));
+//
+//        // Iterando sobre a lista e chamando o método para exibir informações
+//        for (Pessoa pessoa : pessoas) {
+//            pessoa.exibirInformacoes();
+//        }
+//    }
+//}
+//
+
+//

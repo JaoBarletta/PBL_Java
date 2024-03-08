@@ -48,12 +48,12 @@ public class Menu {
         while (true) {;
         
             System.out.printf("Por favor inserir o seu nome completo: ");
-            String novo_usuário = ler.next();
+            String novo_usuario = ler.next();
             int numero_conta = RandomGenerator.getDefault().nextInt(100000);
             double saldo = 0.0;
             @SuppressWarnings("unused")
-            Conta nova_conta = new Conta(novo_usuário,numero_conta, saldo);
-            System.out.printf("Conta Criada com Sucesso!\nNome Titular: "+novo_usuário+"\nNumero da conta: "+numero_conta+"\nSaldo: "+saldo);
+            Conta nova_conta = new Conta(novo_usuario,numero_conta, saldo);
+            System.out.printf("Conta Criada com Sucesso!\nNome Titular: "+novo_usuario+"\nNumero da conta: "+numero_conta+"\nSaldo: "+saldo);
 
             return true;
         }
